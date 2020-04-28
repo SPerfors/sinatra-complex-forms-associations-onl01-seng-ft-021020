@@ -1,2 +1,11 @@
 <h1><%= @pet.name %></h1>
+<<<<<<< HEAD
 <p><%= @pet.owner.name %></p> 
+=======
+<h4>Pets:</h4>
+<ul>
+  <%= @pet.owners.each do |owner| %>
+  <li><%= owner.name %></li>
+  <% end %>
+</ul>
+>>>>>>> c6a8bb666047635634703a8f413355fa1ed1c2f5
